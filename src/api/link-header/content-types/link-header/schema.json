@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_headers",
+  "info": {
+    "singularName": "link-header",
+    "pluralName": "link-headers",
+    "displayName": "DGTIT-LinkHeader",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}
